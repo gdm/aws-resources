@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Prints EC2 instances in txt, html and raw formats in report.txt, report.html and report.yaml correspondingly.
 import sys,skew, yaml, prettytable
 from pprint import pprint
 

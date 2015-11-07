@@ -1,4 +1,5 @@
 #!/usr/bin/env python2.7
+# This script sends mail with report.html/report.txt content and with attached report.yaml file.
 import smtplib,sys
 from datetime import datetime
 
