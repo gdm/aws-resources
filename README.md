@@ -17,17 +17,16 @@ Currently only EC2 instances are supported.
   ```
 3. Make skew-config with all accounts
 
-```
-  ---
-    accounts:
-      "aws account number":
-        profile: profile-name-in ~/.aws/config
-      "aws account number2":
-        profile: profile-name-in ~/.aws/config
-      "aws account number3":
-        profile: profile-name-in ~/.aws/config
-```
-
+    ```
+      ---
+        accounts:
+          "aws account number":
+            profile: profile-name-in ~/.aws/config
+          "aws account number2":
+            profile: profile-name-in ~/.aws/config
+          "aws account number3":
+            profile: profile-name-in ~/.aws/config
+    ```
 4. Export SKEW_CONFIG variable
   ```
   $export SKEW_CONFIG=skew-config
