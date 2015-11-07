@@ -16,7 +16,8 @@ Currently only EC2 instances are supported.
   $ /bin/bash installPythonModules.sh
   ```
 3. Make skew-config with all accounts
-  ```
+
+```
   ---
     accounts:
       "aws account number":
@@ -25,7 +26,8 @@ Currently only EC2 instances are supported.
         profile: profile-name-in ~/.aws/config
       "aws account number3":
         profile: profile-name-in ~/.aws/config
-  ```
+```
+
 4. Export SKEW_CONFIG variable
   ```
   $export SKEW_CONFIG=skew-config
