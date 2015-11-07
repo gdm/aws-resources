@@ -47,7 +47,7 @@ report.txt, report.html and report.yaml files will be generated.
 ## TODO
 
 + volumes and EBS snapshots
-+ changes according to best practice in python world (tests, etc)
++ apply best practices for Python world (tests, requerements.txt, etc)
 
 
 #### References
