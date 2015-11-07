@@ -12,9 +12,10 @@ Currently only EC2 instances are supported.
 
 1. Check that you have setup for aws-cli (~/.aws/config and ~/.aws/credentials files)
 2. Install requeired python modules 
-  ```
-  $ /bin/bash installPythonModules.sh
-  ```
+
+    ```
+    $ /bin/bash installPythonModules.sh
+    ```
 3. Make skew-config with all accounts
 
     ```
@@ -28,21 +29,21 @@ Currently only EC2 instances are supported.
             profile: profile-name-in ~/.aws/config
     ```
 4. Export SKEW_CONFIG variable
-  ```
-  $export SKEW_CONFIG=skew-config
-  ```
+
+    ```
+    $export SKEW_CONFIG=skew-config
+    ```
 5. Launch report script with optional AWS region.
-  ```
-  ./reportUsage.py
-  or 
-  ./reportUsage.py eu-west-1
-  ```
+
+    ```
+    ./reportUsage.py
+    or 
+    ./reportUsage.py eu-west-1
+    ```
 report.txt, report.html and report.yaml files will be generated.
 6. Setup delivery of the report if necessary.
    You may use script reportDeliverySMTP.py as a starting point.
  
-
-
 ## TODO
 
 + volumes and EBS snapshots
