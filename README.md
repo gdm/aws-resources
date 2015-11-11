@@ -1,14 +1,15 @@
 ## Purpose
 
-Report utilized AWS resources for multiple accounts. 
+Report utilized AWS resources (for now only EC2 instances are supported) for multiple accounts. 
 
 It helps to prevent running some instances unattended.
 
 ## Demo
 
-Currently only EC2 instances are supported.
+How html report looks like
+![Sample html report of EC2 instances](demo/htmlAWSreportExample.jpg) 
 
-## Setup
+## Setup and run
 
 1. Check that you have setup for aws-cli (~/.aws/config and ~/.aws/credentials files)
 2. Install requeired python modules 
