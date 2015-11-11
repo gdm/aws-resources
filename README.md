@@ -12,7 +12,7 @@ How html report looks like
 ## Setup and run
 
 1. Check that you have setup for aws-cli (~/.aws/config and ~/.aws/credentials files)
-2. Install requeired python modules 
+2. Install required python modules 
 
     ```
     $ /bin/bash installPythonModules.sh
@@ -48,7 +48,7 @@ report.txt, report.html and report.yaml files will be generated.
 ## TODO
 
 + volumes and EBS snapshots
-+ apply best practices for Python world (tests, requerements.txt, etc)
++ apply best practices for Python world (tests, requirements.txt, etc)
 
 
 #### References
